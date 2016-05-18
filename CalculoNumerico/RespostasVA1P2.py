@@ -4,7 +4,7 @@ Created on 16 de mai de 2016
 
 @author: Raul
 '''
-from matriz import Matriz
+from Matriz import Matriz
 from FatoracaoLU import FatoracaoLU
 from MetodoGaussSeidel import MetodoDeGaussSeidel
 from MetodoJacobi import MetodoDeJacobi

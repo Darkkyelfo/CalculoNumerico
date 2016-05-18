@@ -4,7 +4,7 @@ Created on 7 de mai de 2016
 
 @author: Raul
 '''
-from metodoDeGauss import MetodoDeGauss
+from MetodoDeGauss import MetodoDeGauss
 
 class FatoracaoLU():
     '''

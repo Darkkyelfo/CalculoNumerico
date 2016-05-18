@@ -5,7 +5,6 @@ Created on 17 de mai de 2016
 @author: Raul
 '''
 import math
-from matriz import Matriz
 from abc import ABCMeta,abstractmethod
 
 

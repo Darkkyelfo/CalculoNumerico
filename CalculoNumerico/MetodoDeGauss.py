@@ -5,7 +5,6 @@ Created on Tue Apr 26 18:14:12 2016
 @author: Raul
 """
 import math
-from matriz import *
 
 class MetodoDeGauss():
     
