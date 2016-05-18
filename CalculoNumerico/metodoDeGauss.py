@@ -35,7 +35,6 @@ class MetodoDeGauss():
         '''
         respostas=[1]*(matriz.colunas-1)
         aux=matriz.colunas-2
-        p=0
         for i in range(matriz.linhas-1,-1,-1):#percorre a matriz de baixo pra cima
             soma=0
             div=0
@@ -55,11 +54,6 @@ class MetodoDeGauss():
         MetodoDeGauss.__triangularizacao(matriz)
         respostas=MetodoDeGauss._acharX(matriz)
         return respostas
-
-
-
-
-
                 
             
 

@@ -6,7 +6,7 @@ Created on 7 de mai de 2016
 '''
 from metodoDeGauss import MetodoDeGauss
 
-class FatoracaoLU(MetodoDeGauss):
+class FatoracaoLU():
     '''
     Ax=b
     A=LU
@@ -59,12 +59,13 @@ class FatoracaoLU(MetodoDeGauss):
     
     def resolverSistema(self,b):
         vY=self.__acharY(b)
+        #adiciona o vetor Y como última coluna na matriz
         for i,elemento in enumerate(vY):
             self.matriz.matriz[i].append(elemento)
         self.matriz.colunas+=1
-        
+        #Resolve o sistema.
         respostas=MetodoDeGauss._acharX(self.matriz)
-        
+        #Remove a coluna inserida(y).
         for i in range(self.matriz.linhas):
             aux=self.matriz.matriz[i]
             del aux[self.matriz.colunas-1]
