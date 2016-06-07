@@ -4,10 +4,10 @@ Created on 16 de mai de 2016
 
 @author: Raul
 '''
-from Matriz import Matriz
-from FatoracaoLU import FatoracaoLU
-from MetodoGaussSeidel import MetodoDeGaussSeidel
-from MetodoJacobi import MetodoDeJacobi
+from sistemasLineares.Matriz import Matriz
+from sistemasLineares.FatoracaoLU import FatoracaoLU
+from sistemasLineares.MetodoGaussSeidel import MetodoDeGaussSeidel
+from sistemasLineares.MetodoJacobi import MetodoDeJacobi
 
 #Primeira Questão
 print("1)\n")
